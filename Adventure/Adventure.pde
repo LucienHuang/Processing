@@ -101,7 +101,7 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==17) {
+  } else if (swi==17) {
     background(5, 87, 49);
     fill(255);
     textFont(f, 30);
@@ -110,7 +110,7 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==18) {
+  } else if (swi==18) {
     background(87, 9, 10);
     fill(255);
     textFont(f, 30);
@@ -119,7 +119,7 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==19) {
+  } else if (swi==19) {
     background(255);
     fill(0);
     textFont(f, 30);
@@ -128,8 +128,8 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==20) {
-    background(14,62,120);
+  } else if (swi==20) {
+    background(14, 62, 120);
     fill(255);
     textFont(f, 30);
     text("The Adventure of A Red Ball", 15, 30);
@@ -137,7 +137,7 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==10) {
+  } else if (swi==10) {
     background(255, 237, 17);
     fill(0);
     textFont(f, 30);
@@ -146,7 +146,7 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==11) {
+  } else if (swi==11) {
     background(101, 5, 191);
     fill(255);
     textFont(f, 30);
@@ -155,7 +155,7 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==12) {
+  } else if (swi==12) {
     background(255, 114, 0);
     fill(255);
     textFont(f, 30);
@@ -166,7 +166,7 @@ void draw() {
     fill(ballColor);
     ellipse(mouseX, mouseY, 40, 40);
     changed = false;
-  }else if (swi==13) {
+  } else if (swi==13) {
     background(30, 125, 156);
     fill(255);
     textFont(f, 30);
@@ -175,8 +175,8 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==17) {
-    background(14,62,120);
+  } else if (swi==17) {
+    background(14, 62, 120);
     fill(255);
     textFont(f, 30);
     text("The Adventure of A Red Ball", 15, 30);
@@ -184,8 +184,8 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==18) {
-    background(87,9,10);
+  } else if (swi==18) {
+    background(87, 9, 10);
     fill(255);
     textFont(f, 30);
     text("The Adventure of A Red Ball", 15, 30);
@@ -193,7 +193,7 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==19) {
+  } else if (swi==19) {
     background(255);
     fill(0);
     textFont(f, 30);
@@ -202,8 +202,8 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==20) {
-    background(62,1,20);
+  } else if (swi==20) {
+    background(62, 1, 20);
     fill(255);
     textFont(f, 30);
     text("The Adventure of A Red Ball", 15, 30);
@@ -211,8 +211,8 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==29) {
-    background(255,38,59);
+  } else if (swi==29) {
+    background(255, 38, 59);
     fill(255);
     textFont(f, 30);
     text("The Adventure of A Red Ball", 15, 30);
@@ -220,8 +220,8 @@ void draw() {
     text(title1(swi), 30, 500);
     text(title2(swi), 30, 522);
     changed = false;
-  }else if (swi==30) {
-    background(54,196,151);
+  } else if (swi==30) {
+    background(54, 196, 151);
     fill(255);
     textFont(f, 30);
     text("The Adventure of A Red Ball", 15, 30);
@@ -304,7 +304,7 @@ String title2(int swi) {
     s = "you, take one~";
   } else if (swi == 17) {
     s = "wizzards and witches. Good luck with it!";
-  }  else if (swi == 18) {
+  } else if (swi == 18) {
     s = "peaceful again!";
   } 
   return s;
@@ -347,7 +347,7 @@ color target(int sign, int swi, int am) {
   } else if (swi==4) {
     if (sign ==-1) {
       if (am==-1) newColor = color(255);
-      else newColor = color(14,62,120);
+      else newColor = color(14, 62, 120);
     } else {
       if (am ==-1) newColor = color(5, 87, 49);
       else newColor = color(87, 9, 10);
@@ -355,11 +355,25 @@ color target(int sign, int swi, int am) {
   } else if (swi==6) {
     if (sign ==-1) {
       if (am==-1) newColor = color(255);
-      else newColor = color(14,62,120);
+      else newColor = color(14, 62, 120);
     } else {
-      if (am ==-1) newColor = color(255,38,59);
-      else newColor = color(54,196,151);
+      if (am ==-1) newColor = color(255, 38, 59);
+      else newColor = color(54, 196, 151);
     }
   }
   return newColor;
+}
+
+void keyPressed() {
+  bgColor = color(0, 0, 0);
+  leftColor = color(62, 194, 255);
+  rightColor = color(255, 217, 27);
+  ballColor = color(255, 0, 0);
+  level = 0;
+  changed = true;
+  go = false;
+  changing = 0;
+  Bigger = 0;
+  swi = 0;
+  tempS = 0;
 }
